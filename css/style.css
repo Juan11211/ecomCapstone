@@ -1,11 +1,32 @@
 * {
-    background-color: lightgray;
+    background-color: black;
     margin: 0px;
     padding: 0px;
+ 
+}
+
+body {
+    color: white;
 }
 
 .full-width-img {
-    width: 100vw;   /* Set the width to 100% of the viewport width */
+    width: 100%;   /* Set the width to 100% of the viewport width */
     height: auto;   /* Maintain the image's aspect ratio */
-    display: block; /* Remove any potential extra spacing */
 }
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid white;
+}
+
+.custom-badge {
+    position: absolute;
+    top: 0;
+    right: -8px; /* Adjust this value as needed */
+  }
+  
+  
