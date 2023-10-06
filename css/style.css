@@ -10,7 +10,7 @@ body {
 }
 
 .full-width-img {
-    width: 100%;   /* Set the width to 100% of the viewport width */
+    width: 100%;   /* Set the width to 100% of the header width */
     height: auto;   /* Maintain the image's aspect ratio */
 }
 
@@ -26,7 +26,10 @@ body {
 .custom-badge {
     position: absolute;
     top: 0;
-    right: -8px; /* Adjust this value as needed */
+    right: -1px; /* Adjust this value as needed */
   }
   
+  .card {
+    width: 18rem;
+  }
   
