@@ -50,20 +50,18 @@
   </header>
 
   <!-- HEADER / SLIDER -->
-  <div class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="3000">
-        <img src="images/header1.png" class="d-block w-100" alt="...">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="/images/header1.png" class="d-block w-100" alt="header1 image">
       </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="images/header2.png" class="d-block w-100" alt="...">
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="/images/header2.png" class="d-block w-100" alt="header2 image">
       </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="images/header3.png" class="d-block w-100" alt="...">
+      <div class="carousel-item">
+        <img src="/images/header3.png" class="d-block w-100" alt="header3 image">
       </div>
     </div>
-
-    <!-- left / right button -->
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -74,52 +72,97 @@
     </button>
   </div>
 
+
 <!-- MAIN PART OF WEB-->
 <section class="container">
   <!-- main page title -->
   <div class="container text-center p-5">
-      <h3 class="text-uppercase hover-orange">trending now</h3>
+    <h2 class="text-uppercase hover-orange">trending now</h2>
   </div>
 
-  <div class="d-flex justify-content-center m-5">
-    <div class="card mx-2 mb-2 flex-sm-column" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+  <div class="container text-center">
+    <div class="row justify-content-center"> <!-- Use justify-content-center to center the columns -->
+      <div class=" col-md-3 col-lg-4"> <!-- Adjust the number of columns based on your desired layout -->
+        <div class="card rounded-lg shadow">
+          <img src="/images/banana.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="card mx-2 mb-2 flex-sm-column" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="col-md-3 col-lg-4"> <!-- Adjust the number of columns based on your desired layout -->
+        <div class="card rounded-lg shadow">
+          <img src="/images/doodleBob.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="card mx-2 mb-2 flex-sm-column" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="col-md-3 col-lg-4"> <!-- Adjust the number of columns based on your desired layout -->
+        <div class="card rounded-lg shadow">
+          <img src="/images/mario.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      
+        </div>
       </div>
     </div>
   </div>
-
 </section>
 
 
 
+<div class="container p-5">
+  <div class="text-uppercase text-center p-3 hover-orange">
+    <h2>NEW THIS WEEK</h2>
+  </div>
+
+  <!-- NEW THIS WEEK SECTION -->
+  <div class="container">
+    <div class="row border rounded shadow">
+      
+      <div class="col-md-6">
+        <img src="/images/new.png" class="d-flex mt-3" id="new" alt="...">
+      </div>
+
+      <div class="col-md-6">
+        <div class="container">
+          <div class="row justify-content-start mt-3">
+            <div class="col-md-4">
+              <div class="text-center">
+                <img src="/images/tmnt.png" alt="TMNT Image">
+              </div>
+            </div>
+          </div>
+
+          <div class="row d-flex">
+            <div class="col d-flex justify-content-center">
+        
+                <p>They're lean, they're green, and they're mean! Transform into Michelangelo when you slip into this adult Teenage Mutant Ninja Turtles costume! This Michelangelo costume kit includes a jumpsuit with long sleeves and full-length pants, a belt, an orange eye mask, a shell backpack, and orange knee and elbow pads.</p>
+             
+            </div>
+          </div>
+        </div>
+        
+  </div>
+  
+</div>
+
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    &copy; 2023 HalloweenTown
-  </footer>
+ <footer class="container-fluid bg-darkgray" >
+  2023 halloweentown!
+ </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
