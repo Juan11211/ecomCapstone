@@ -1,0 +1,21 @@
+.checkbox-circle {
+    border-radius: 50%;
+}
+
+.border-width {
+    max-width: 400px;
+    height: 50px; /* Adjust the height here */
+}
+
+.size {
+    height: 30px;
+    width: 30px;
+}
+
+.size-card {
+    width: 50px;
+}
+
+.size-card-logo {
+    width: 47px;
+}
