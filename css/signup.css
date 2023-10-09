@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px; 
+}
+
+body {
+    background-color: #ff8506
+  }   
+
+  .hover-button:hover {
+    background-color: #ff8506;
+    color: black;
+  }
+
+.custom-width {
+    width: 150px; 
+}
+
+.medium {
+  font-size: 14px;
+}
+
+.main-width {
+  width: 400px;
+}
+
+.body-height {
+  height: 100vh;
+  
+}
