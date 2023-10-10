@@ -19,3 +19,21 @@
 .size-card-logo {
     width: 47px;
 }
+
+.breadcrumb-item > a { 
+    color: gray;
+}
+
+.checkout-card{
+    width: 35px;
+    height: 35px;
+}
+
+.home-tag {
+    text-decoration: none;
+    color: white;
+}
+
+.custom-border {
+    width: 100%;
+}
