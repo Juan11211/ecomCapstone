@@ -15,7 +15,7 @@
     <!-- RESPONSIVE NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand text-uppercase text-light font-weight-bold" href="#">halloweentown</a>
+        <a class="navbar-brand text-uppercase text-light font-weight-bold" href="index.html">halloweentown</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,38 +24,35 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active text-uppercase font-weight-light text-light" aria-current="page"
-                href="/signup.html">sign up</a>
+                href="signup.html">sign up</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light font-weight-light text-uppercase" href="/login.html">login</a>
+              <a class="nav-link text-light font-weight-light text-uppercase" href="login.html">login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light font-weight-light text-uppercase" href="/products.html">Products</a>
+              <a class="nav-link text-light font-weight-light text-uppercase" href="products.html">Products</a>
             </li>
           </ul>
 
           <!-- SVG ICONS -->
           <div class="ml-auto d-lg-flex justify-content-end">
-            
-            <div class="position-relative d-none d-lg-flex justify-content-end p-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-bag-fill"
-                viewBox="0 0 16 16">
-                <path
-                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
-              </svg>
-              <span class="badge bg-danger rounded-circle custom-badge badge-sm">2</span>
+            <div class="position-relative d-none d-lg-flex justify-content-end p-2 align-middle">
+                <a href="checkout.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                    </svg>
+                    <span class="badge bg-danger rounded-circle custom-badge badge-sm">2</span>
+                </a>
             </div>
-            
-            <div class="position-relative d-none d-lg-flex justify-content-end p-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart-fill"
-                viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
-              </svg>
-              <span class="badge bg-danger custom-badge">2</span>
+        
+            <div class="position-relative d-none d-lg-flex justify-content-end p-2 align-middle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                </svg>
+                <span class="badge bg-danger custom-badge">2</span>
             </div>
-          </div>
-
+        </div>
+        
         </div>
       </div>
     </nav>
@@ -65,13 +62,13 @@
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="5000">
-        <img src="/images/header1.png" class="d-block w-100" alt="header1 image">
+        <img src="./images/header1.png" class="d-block w-100" alt="header1 image">
       </div>
       <div class="carousel-item" data-bs-interval="5000">
-        <img src="/images/header2.png" class="d-block w-100" alt="header2 image">
+        <img src="./images/header2.png" class="d-block w-100" alt="header2 image">
       </div>
       <div class="carousel-item">
-        <img src="/images/header3.png" class="d-block w-100" alt="header3 image">
+        <img src="./images/header3.png" class="d-block w-100" alt="header3 image">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -85,7 +82,7 @@
   </div>
 
 
-  <!-- MAIN PART OF WEB-->
+  <!-- MAIN PART OF PAGE-->
   <main class="container">
     <!-- main page title -->
     <div class="container text-center p-5">
@@ -94,95 +91,87 @@
 
     <div class="container text-center">
       <div class="row justify-content-center">
-        <!-- Use justify-content-center to center the columns -->
-        <div class=" col-md-3 col-lg-4">
-          <!-- Adjust the number of columns based on your desired layout -->
-          <div class="card rounded-lg shadow">
-            <img src="/images/banana.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+          <div class="col-md-4 mb-3">
+              <div class="card h-100 rounded-lg shadow">
+                  <img src="./images/banana.jpg" class="card-img-top" alt="bananaCostume">
+                  <div class="card-body d-flex flex-column align-items-center">
+                      <h5 class="card-title">Banana Man</h5>
+                      <p class="card-text">
+                          <ul>
+                              <li>Colorful and fun costume for parties.</li>
+                              <li>One-size-fits-most design for easy slip on and off.</li>
+                          </ul>
+                      </p>
+                      <a href="#" class="btn btn-dark text-uppercase">Add to cart</a>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-md-3 col-lg-4">
-          <!-- Adjust the number of columns based on your desired layout -->
-          <div class="card rounded-lg shadow">
-            <img src="/images/doodleBob.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+          <div class="col-md-4 mb-3">
+              <div class="card h-100 rounded-lg shadow">
+                  <img src="./images/doodleBob.jpeg" class="card-img-top" alt="doddleBob">
+                  <div class="card-body d-flex flex-column align-items-center">
+                      <h5 class="card-title">DoodleBob</h5>
+                      <p class="card-text">
+                          <ul>
+                              <li>Unique costume inspired by SpongeBob SquarePants.</li>
+                              <li>Includes costume pieces for an authentic look.</li>
+                          </ul>
+                      </p>
+                      <a href="#" class="btn btn-dark text-uppercase">Add to cart</a>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-md-3 col-lg-4">
-          <!-- Adjust the number of columns based on your desired layout -->
-          <div class="card rounded-lg shadow">
-            <img src="/images/mario.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+          <div class="col-md-4 mb-3">
+              <div class="card h-100 rounded-lg shadow">
+                  <img src="./images/mario.jpg" class="card-img-top" alt="marioCostume">
+                  <div class="card-body d-flex flex-column align-items-center">
+                      <h5 class="card-title">Super Mario</h5>
+                      <p class="card-text">
+                          <ul>
+                              <li>Iconic video game character costume.</li>
+                              <li>Comes with Mario's signature red hat and blue overalls.</li>
+                          </ul>
+                      </p>
+                      <a href="#" class="btn btn-dark text-uppercase">Add to cart</a>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
-    </div>
-    </div>
-  </section>
+  </div>
+  </main>
 
 
-
+ <!-- NEW THIS WEEK SECTION -->
   <div class="container p-5">
     <div class="text-uppercase text-center p-3 hover-orange">
       <h2>NEW THIS WEEK</h2>
     </div>
-
-    <!-- NEW THIS WEEK SECTION -->
-    <div class="container">
-      <div class="row border rounded shadow">
-
-        <div class="col-md-4">
-          <img src="/images/new.png" class="d-flex mt-3" id="new" alt="...">
-        </div>
-
-        <div class="col-md-8 p-4">
-          <div class="container">
-
-            <div class="row justify-content-center mt-3">
-              <div class="col-md-6 text-center">
-                <div class="text-center">
-                  <img src="/images/tmnt.png" alt="TMNT Image">
-                </div>
-              </div>
-            </div>
-
-            <!-- p tag row -->
-            <div class="row justify-content-center">
-              <div class="col p-3 text-center">
-                <p class="text-uppercase">They're lean, they're green, and they're mean! Transform into Michelangelo
-                  when you slip into this adult <b>Teenage Mutant Ninja Turtles</b> costume! This Michelangelo costume
-                  kit includes a jumpsuit with long sleeves and full-length pants, a belt, an <span
-                    class="hover-orange">orange</span> eye mask, a shell backpack, and <span
-                    class="hover-orange">orange</span> knee and elbow pads.</p>
-              </div>
-            </div>
-
-            <!-- button in the component-->
-            <div class="container text-center">
-              <button type="button" class="btn btn-dark w-150 hover-button">View</button>
-              <button type="button" class="btn btn-dark w-150 hover-button">Add to cart</button>
-            </div>
-
-          </div>
-        </div>
+<div class="container">
+  <div class="row border rounded shadow">
+      <div class="col-md-4">
+          <img src="./images/new.png" class="d-flex mt-3" id="new" alt="newCostume">
       </div>
+
+      <div class="col-md-8 p-4">
+          <div class="row justify-content-center mt-3">
+              <div class="col-md-6 text-center">
+                  <img src="./images/tmnt.png" alt="TMNT Image">
+              </div>
+          </div>
+
+          <div class="row justify-content-center">
+              <div class="col-md-12 p-3 text-center">
+                  <p class="text-uppercase">They're lean, they're green, and they're mean! Transform into Michelangelo when you slip into this adult <b>Teenage Mutant Ninja Turtles</b> costume! This Michelangelo costume kit includes a jumpsuit with long sleeves and full-length pants, a belt, an <span class="hover-orange">orange</span> eye mask, a shell backpack, and <span class="hover-orange">orange</span> knee and elbow pads.</p>
+              </div>
+          </div>
+
+          <div class="text-center">
+              <button type="button" class="btn btn-dark hover-button">View</button>
+              <button type="button" class="btn btn-dark hover-button">Add to cart</button>
+          </div>
+      </div>
+  </div>
+</div>
   </div>
   </div>
   
