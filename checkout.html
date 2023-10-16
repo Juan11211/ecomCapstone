@@ -122,7 +122,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="border shadow">
-                        <table class="table table-bordered text-center custom-border ">
+                        <table class="table table-bordered text-center custom-border">
                             <thead>
                                 <tr>
                                     <th>Item</th>
@@ -136,9 +136,7 @@
                                         <img src="./images/banana.jpg" class="checkout-card" alt="Item Image">
                                     </td>
                                     <td class="text-center align-middle">
-                                        <button class="btn btn-md" onclick="decrementItem(this)">-</button>
                                         <span class="item-count">2</span>
-                                        <button class="btn btn-md" onclick="incrementItem(this)">+</button>
                                     </td>
                                     <td class="align-middle">$19.99</td>
                                 </tr>
@@ -147,15 +145,24 @@
                                         <img src="./images/mario.jpg" class="checkout-card" alt="Item Image">
                                     </td>
                                     <td class="text-center align-middle">
-                                        <button class="btn btn-md" onclick="decrementItem(this)">-</button>
+                                        
                                         <span class="item-count">2</span>
-                                        <button class="btn btn-md" onclick="incrementItem(this)">+</button>
+                                    
                                     </td>
                                     <td class="align-middle">$19.99</td>
                                 </tr>
+                                <tr>
+                                    <td>
+                                        
+                                    </td>
+                                    <td class="text-center align-middle">
+                                        <span class="item-count">4</span> <!-- Quantity -->
+                                    </td>
+                                    <td class="align-middle">$39.98</td> <!-- Price -->
+                                </tr>
                             </tbody>
-                            
                         </table>
+                        
                     </div>
                 </div>
             </div>
@@ -229,7 +236,14 @@
     </div>
     </main>
        
-
+       <!-- Footer -->
+    <footer class="bg-dark text-light">
+        <div class="container-fluid p-5">
+            <div class="container text-center text-uppercase">
+                Happy Halloween - Juan Aviles 2023
+            </div>
+        </div>
+    </footer>
     
 
     <!-- Include Bootstrap JavaScript scripts if needed -->
