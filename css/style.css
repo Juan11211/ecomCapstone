@@ -28,7 +28,7 @@
     max-height: 100%;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 720px) {
     .card img {
       height: 25em;
     }
@@ -44,3 +44,9 @@
     color: black;
   }
 
+
+.bannerSize {
+  height: 50vh;
+  width: 30vw;
+  overflow: hidden;
+}
